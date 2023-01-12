@@ -1,0 +1,81 @@
+\documentclass[11pt]{amsart}
+\usepackage{amssymb,amsthm,amsmath,epsfig,latexsym}
+\usepackage{calc,times,verbatim}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{bm}
+
+\begin{document}
+
+\title{Multi layer perceptron for mnist database}
+\author{Tianbo Yang}
+%\date{November 2022}
+\maketitle
+
+The MNIST dataset is an acronym that stands for the Modified National Institute of Standards and Technology dataset. It is a dataset of 60,000 small square 28 $\times$ 28 pixel grayscale images of handwritten single digits between 0 and 9.
+
+MNIST is a very well-studied data set of 28x28 images of isolated digits (0-9), each pixel value in the range 0-255. There are 60,000 training images and 10,000 validation images
+
+Our data consists of the form $\left(\mathbf{x}, \mathbf{y}\right)$, where $\mathbf{x}=\left[\begin{array}{c}x_1\\\vdots\\x_{784}\end{array}\right]\in \mathbb{R}^{784}$ and $\mathbf{y}=\left[\begin{array}{c}0\\\vdots\\1\\\vdots\\0\end{array}\right]\in \mathbb{R}^{10}$, where the $i$th entry is 1 if the data represent the number $i$, otherwise, the entries are zero.
+
+To classify 10 digits, we define a function $h_{\mathbf{w}}: \mathbb{R}^{784} \to \mathbb{R}^{10}$
+$$
+h_\mathbf{w}(\mathbf{x}) = \mathbf{w}^T \mathbf{x} + \bm{w_0} = \left[\begin{array}{c}\sum_{i=1}^{784} w_{i,1} x_i + w_{0,1}\\\vdots\\\sum_{i=1}^{784} w_{i, 10} x_i + w_{0,10}\end{array}\right]= \left[\begin{array}{c}z_1\\\vdots\\z_{10} \end{array}\right]\in \mathbb{R}^{10}
+$$
+where $\mathbf{x}=\left[\begin{array}{c}x_1\\\vdots\\x_{784}\end{array}\right]\in \mathbb{R}^{784}$, $\mathbf{w}=\left[\begin{array}{ccc}w_{1,1}&\cdots&w_{1,10}\\\vdots&\vdots&\vdots\\w_{784,1}&\cdots&w_{784,10}\end{array}\right]$, and $\mathbf{w}_0=\left[\begin{array}{c}w_{0,1}\\\vdots\\w_{0,10}\end{array}\right]$.
+\medskip
+
+{\bf Rectified linear unit}
+$$
+{\rm ReLU}(z)=\begin{cases} 0 \quad {\rm if} \,\,  z<0\\
+z \quad {\rm otherwise}\end{cases}={\rm max}\{0, z\}
+$$
+\noindent
+Convolutional layers: Filters in the first convolutional layers are responsible for detecting low-level features (e.g., edges, color, contrast). Later convolutional layers are responsible for detecting mid-level features (e.g., ears, eyes).
+\medskip
+
+\noindent
+Max pooling layers: Max pooling layers detect the strongest response within a given window. This property allows the network to be less sensitive to feature locations.
+\medskip
+
+\noindent
+Fully connected layers: Fully connected layers allow combining features from the entire image and provide the final network output.
+\medskip
+
+{\bf Softmax function} \,\, $\mathbf{z}\in \mathbb{R}^{10} \to P\in [0, 1]^{10}$ \, with \, $\sum_{i=1}^{10} P_i=1$ (a
+probability distribution over $10$ items)
+$$
+\bm{a}={\rm softmax}(\mathbf{z})=\left[\begin{array}{c} \frac{{\rm exp}(z_1)}{\sum_{i=1}^{10} {\rm exp}(z_i)}\\ \vdots\\ \frac{{\rm exp}(z_{10})}{\sum_{i=1}^{10} {\rm exp}(z_i)}\end{array}\right]
+$$
+The loss function ${\rm Loss}(\bm{a}, \bm{y})$
+$$
+{\rm NLL}(\bm{a}, \bm{y})=-\sum_{j=1}^{10}y_j{\rm ln}(a_j)
+$$
+$$
+z_j=\sum_{i=1}^{784}w_{i,j}x_i+w_{0,j} \quad 1\leq j\leq 10
+$$
+$$
+\frac{\partial {\rm NLL} (\bm{a}, \bm{y})}{\partial w_{i, j}}=x_i(a_j-y_j), \quad 1\leq i\leq 784, \, 1\leq j\leq 10
+$$
+$$
+\frac{\partial {\rm NLL} (\bm{a}, \bm{y})}{\partial w_{0, j}}=a_j-y_j, \quad 1\leq j\leq 10
+$$
+
+
+
+
+\vskip 1in
+\bibliographystyle{amsalpha}
+\begin{thebibliography}{10}
+\bibitem{ASAH}
+Al-Omari, S. A. K., Sumari, P., Al-Taweel, S. A., \& Husain, A. J. (2009). Digital Recognition using Neural Network. Journal of Computer Science, 5(6), 427-434. https://doi.org/10.3844/jcssp.2009.427.434
+
+\bibitem{B}
+Block, H. (1970). A review of perceptrons: An introduction to computational geometry. Information and Control, 17(5), 501-522. https://doi.org/10.1016/s0019-9958(70)90409-2
+
+\bibitem{V}
+Verma, J. (2022, August 3). MNIST Dataset in Python - Basic Importing and Plotting. DigitalOcean Community. https://www.digitalocean.com/community/tutorials/mnist-dataset-in-python
+\end{thebibliography}
+
+\end{document}
+

@@ -1,0 +1,453 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.6)  21 DEC 2022 10:31
+entering extended mode
+**C:/Users/xieyu/Dropbox/Haverford/ComputerScience/CS260/Project/MlpCnnMnist/CS
+260ClassificationProjectNew.tex
+
+(C:/Users/xieyu/Dropbox/Haverford/ComputerScience/CS260/Project/MlpCnnMnist/CS2
+60ClassificationProjectNew.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-08-27> (C:\CTEX\MiKTeX\tex/latex/amscls\amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+\linespacing=\dimen138
+\normalparindent=\dimen139
+\normaltopskip=\skip47
+(C:\CTEX\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(C:\CTEX\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\CTEX\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen140
+))
+(C:\CTEX\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+(C:\CTEX\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count182
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count183
+\leftroot@=\count184
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count185
+\DOTSCASE@=\count186
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count187
+\c@MaxMatrixCols=\count188
+\dotsspace@=\muskip16
+\c@parentequation=\count189
+\dspbrk@lvl=\count190
+\tag@help=\toks17
+\row@=\count191
+\column@=\count192
+\maxfields@=\count193
+\andhelp@=\toks18
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks19
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 397
+.
+
+(C:\CTEX\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\CTEX\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+\copyins=\insert199
+\abstractbox=\box52
+\listisep=\skip51
+\c@part=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\captionindent=\dimen149
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks26
+)
+(C:\CTEX\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\CTEX\MiKTeX\tex/latex/graphics\epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+(C:\CTEX\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+)
+(C:\CTEX\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\CTEX\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\CTEX\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\CTEX\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+\epsfxsize=\dimen152
+\epsfysize=\dimen153
+)
+(C:\CTEX\MiKTeX\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(C:\CTEX\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count269
+\calc@Bcount=\count270
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count271
+\calc@Cskip=\skip59
+)
+(C:\CTEX\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\CTEX\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
+\verbatim@in@stream=\read2
+)
+(C:\CTEX\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\CTEX\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\CTEX\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks30
+
+(C:\CTEX\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\CTEX\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+(C:\CTEX\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(C:\CTEX\MiKTeX\tex/latex/extarrows\extarrows.sty
+Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
+)
+(C:\CTEX\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(C:\CTEX\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+)
+(C:\CTEX\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+\symboldlasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(C:\CTEX\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count275
+\l__pdf_internal_box=\box53
+)
+(CS260ClassificationProjectNew.aux)
+\openout1 = `CS260ClassificationProjectNew.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+
+ (C:\CTEX\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+
+(C:\CTEX\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 11
+.
+
+(C:\CTEX\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 11.
+
+(C:\CTEX\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen164
+\scratchbox=\box54
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen165
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks32
+) (C:\CTEX\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\CTEX\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-22.0pt
+* \headheight=8.0pt
+* \headsep=14.0pt
+* \topskip=10.0pt
+* \footskip=12.0pt
+* \marginparwidth=90.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=7.0pt plus 11.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 37.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/xieyu/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+<Training_accuracy.png, id=21, 577.65813pt x 302.12875pt>
+File: Training_accuracy.png Graphic file (type png)
+<use Training_accuracy.png>
+Package pdftex.def Info: Training_accuracy.png  used on input line 120.
+(pdftex.def)             Requested size: 244.27461pt x 127.7599pt.
+<Validation_accuracy.png, id=23, 559.59062pt x 303.1325pt>
+File: Validation_accuracy.png Graphic file (type png)
+<use Validation_accuracy.png>
+Package pdftex.def Info: Validation_accuracy.png  used on input line 123.
+(pdftex.def)             Requested size: 244.27461pt x 132.32411pt.
+
+Overfull \hbox (13.274pt too wide) in paragraph at lines 118--125
+[]  $[]$ $[]$ 
+ []
+
+[3]
+<Training_loss.png, id=27, 559.59062pt x 301.125pt>
+File: Training_loss.png Graphic file (type png)
+<use Training_loss.png>
+Package pdftex.def Info: Training_loss.png  used on input line 128.
+(pdftex.def)             Requested size: 244.27461pt x 131.44778pt.
+<Validation_loss.png, id=28, 572.1375pt x 299.1175pt>
+File: Validation_loss.png Graphic file (type png)
+<use Validation_loss.png>
+Package pdftex.def Info: Validation_loss.png  used on input line 131.
+(pdftex.def)             Requested size: 244.27461pt x 127.70975pt.
+
+Overfull \hbox (13.274pt too wide) in paragraph at lines 126--134
+[]  $[]$ $[]$
+ []
+
+<W.png, id=29, 373.89688pt x 79.79813pt>
+File: W.png Graphic file (type png)
+<use W.png>
+Package pdftex.def Info: W.png  used on input line 179.
+(pdftex.def)             Requested size: 375.80544pt x 80.20946pt.
+[4 <./Training_accuracy.png> <./Validation_accuracy.png> <./Training_loss.png> 
+<./Validation_loss.png>]
+<A1.png, id=37, 389.455pt x 110.91437pt>
+File: A1.png Graphic file (type png)
+<use A1.png>
+Package pdftex.def Info: A1.png  used on input line 186.
+(pdftex.def)             Requested size: 244.27461pt x 69.5667pt.
+<B1.png, id=38, 380.42125pt x 113.42375pt>
+File: B1.png Graphic file (type png)
+<use B1.png>
+Package pdftex.def Info: B1.png  used on input line 189.
+(pdftex.def)             Requested size: 244.27461pt x 72.83324pt.
+
+Overfull \hbox (13.274pt too wide) in paragraph at lines 184--191
+[]  $[]$ $[]$ 
+ []
+
+<C1.png, id=39, 367.3725pt x 113.42375pt>
+File: C1.png Graphic file (type png)
+<use C1.png>
+Package pdftex.def Info: C1.png  used on input line 194.
+(pdftex.def)             Requested size: 244.27461pt x 75.41891pt.
+<D1.png, id=40, 372.89313pt x 106.89937pt>
+File: D1.png Graphic file (type png)
+<use D1.png>
+Package pdftex.def Info: D1.png  used on input line 197.
+(pdftex.def)             Requested size: 244.27461pt x 70.02692pt.
+
+Overfull \hbox (13.274pt too wide) in paragraph at lines 192--199
+[]  $[]$ $[]$ 
+ []
+
+<Confusion_matrix1.png, id=41, 349.305pt x 297.11pt>
+File: Confusion_matrix1.png Graphic file (type png)
+<use Confusion_matrix1.png>
+Package pdftex.def Info: Confusion_matrix1.png  used on input line 210.
+(pdftex.def)             Requested size: 234.8775pt x 199.7835pt.
+<Confusion_matrix2.png, id=42, 355.82938pt x 305.14pt>
+File: Confusion_matrix2.png Graphic file (type png)
+<use Confusion_matrix2.png>
+Package pdftex.def Info: Confusion_matrix2.png  used on input line 213.
+(pdftex.def)             Requested size: 234.8775pt x 201.41629pt.
+<Confusion_matrix3.png, id=43, 416.55624pt x 344.28625pt>
+File: Confusion_matrix3.png Graphic file (type png)
+<use Confusion_matrix3.png>
+Package pdftex.def Info: Confusion_matrix3.png  used on input line 218.
+(pdftex.def)             Requested size: 234.8775pt x 194.12808pt.
+<Confusion_matrix4.png, id=44, 341.275pt x 289.58188pt>
+File: Confusion_matrix4.png Graphic file (type png)
+<use Confusion_matrix4.png>
+Package pdftex.def Info: Confusion_matrix4.png  used on input line 221.
+(pdftex.def)             Requested size: 234.8775pt x 199.30356pt.
+[5 <./W.png> <./A1.png> <./B1.png> <./C1.png> <./D1.png> <./Confusion_matrix1.p
+ng> <./Confusion_matrix2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./Confusion_matrix3.png> <./Confusion_matrix4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+[]\T1/ptm/m/n/9 Y. Le-Cun, C. Cortes, and C. J. Burges, ``MNIST hand-writ-ten d
+igit data-base," ATT Labs (On-line),
+ []
+
+[7] (CS260ClassificationProjectNew.aux) ) 
+Here is how much of TeX's memory you used:
+ 4123 strings out of 478927
+ 53676 string characters out of 2866666
+ 366301 words of memory out of 3000000
+ 21728 multiletter control sequences out of 15000+600000
+ 440200 words of font info for 89 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 72i,11n,80p,1409b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/CTEX/MiKTeX/fonts/enc/dvips/base/8
+r.enc}<C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX
+/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/symbol
+s/msbm10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/f
+onts/type1/urw/times/utmr8a.pfb>
+Output written on CS260ClassificationProjectNew.pdf (7 pages, 667128 bytes).
+PDF statistics:
+ 119 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+
